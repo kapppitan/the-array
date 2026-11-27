@@ -1,11 +1,11 @@
 export function Hero() {
     return (
-        <div className="flex h-screen bg-black items-center p-20">
-            <div className="flex flex-col w-full lg:w-1/2 items-center lg:items-start text-center lg:text-left">
-                <h1 className="text-5xl lg:text-7xl text-white mb-10">The Rental Store</h1>
-                <p className="text-2xl text-gray-600 font-mono mb-20">Welcome and feel free to browse the shelves that houses the macabre.</p>
-                <a className="hover:bg-white text-3xl text-white hover:text-black w-fit border-2 border-white py-2 px-10" href="#movies">Browse Movies</a>
+        <div className="container-fluid">
+            <div className="bg-[#020202] grid">
+                <img src="banner1.svg" alt="" className="col-start-1 row-start-1 mx-auto my-10 w-4/5" />
+                <img src="banner2.svg" alt="" className="col-start-1 row-start-1 mx-auto my-10 w-4/5 animate-[bob_5s_ease-in-out_infinite]" />
             </div>
+            <h1 className="text-8xl text-center">THE ARRAY</h1>
         </div>
     )
 }
