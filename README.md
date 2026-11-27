@@ -1,3 +1,3 @@
-# Welcome to the Rental
+# Welcome to the Array
 
-Home to the macabre flicks.
+A collection of worlds.
