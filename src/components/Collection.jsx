@@ -3,14 +3,14 @@ import { Cube } from "./Cube";
 export function Collection() {
     const items = [
         {
-            title: "White Noise",
-            description: "Description here",
-            image: "white-noise.jpg",
-            link: ""
+            title: "Minesweeping",
+            description: "A game about minesweeping.",
+            image: "https://img.itch.zone/aW1nLzMxOTgxNTQ3LmpwZw==/315x250%23c/LfZ%2BTa.jpg",
+            link: "https://kapishorrified.itch.io/minesweeping"
         },
         {
-            title: "Another Title",
-            description: "Another description",
+            title: "Coming Soon",
+            description: "---",
             image: "white-noise.jpg",
             link: ""
         }

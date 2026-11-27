@@ -30,8 +30,8 @@ export function Cube({ title, description, image, link }) {
                 <div className="relative h-50 bg-[#020202]" style={{ transform: "translateZ(50px)" }}>
                     <img src={image} alt="thumbnail" className="block w-full h-full object-cover p-2" />
                     <div className="absolute bottom-0 p-2 w-full text-[#ffddbb] bg-[#020202]">
-                        <p className="text-lg">{title}</p>
-                        <p>{description}</p>
+                        <p className="font-[600] text-lg">{title}</p>
+                        <p className="text-xs truncate">{description}</p>
                     </div>
                 </div>
 
