@@ -5,11 +5,6 @@
     --font-raleway: 'Raleway', sans-serif;
 }
 
-@font-face {
-    font-family: 'vcr';
-    src: url('/vcr_osd_mono.ttf') format('truetype');
-}
-
 @keyframes bob {
     0%, 100% {
         transform: translateY(0);
