@@ -23,6 +23,11 @@ export function Collection() {
             image: "https://img.itch.zone/aW1nLzMwODMzMjk5LmpwZw==/original/7OXB%2Fg.jpg",
             link: ""
         },
+        {
+            title: "???",
+            description: "A distant memory.",
+            image: "petals.jpg"
+        }
     ];
 
     return (
